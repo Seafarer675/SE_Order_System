@@ -1,11 +1,11 @@
-package software_enginner;
+package software_enginner.SE_Order_System.Seafarer;
 
 import javax.swing.*;
 
 public class creat_account {
     public static void main(String[]args)
     {
-        JFrame frame = new JFrame("µù¥U±b¸¹");
+        JFrame frame = new JFrame("???U¡Ób??");
         frame.setSize(350,200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -19,7 +19,7 @@ public class creat_account {
     {
         panel.setLayout(null);
         
-        JLabel account = new JLabel("¿é¤J±b¤á:");
+        JLabel account = new JLabel("???J¡Ób??:");
         account.setBounds(10, 20, 80, 25);
         panel.add(account);
 
@@ -27,7 +27,7 @@ public class creat_account {
         account_text.setBounds(100,20, 165, 25);
         panel.add(account_text);
 
-        JLabel password = new JLabel("¿é¤J±K½X");
+        JLabel password = new JLabel("???J¡ÓK?X");
         password.setBounds(10,50,80,20);
         panel.add(password);
 
